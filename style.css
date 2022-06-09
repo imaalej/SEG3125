@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'pironnormal';
+    src: url('piron-normal-webfont.woff2') format('woff2'),
+         url('piron-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: pironnormal;
+}
+
+h4, h3, h2, p, a{
+    font-family: pironnormal;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 30px;
+    background: /*#ccffff;*/ #d7def4;
+    
+}
+
+.btn-group {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    color: black;
+    background-color:/*#e6b8b8;*/ #f8dcd7;
+    border-color: black;
+}
+
+.btn-primary:hover{
+    /*color: black;*/
+    background-color: #e8b65c;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    color: #ffffff !important;
+    background-color: #e8b65c !important;
+    border-color: black !important;
+    box-shadow: none !important;
+  }
+.btn-secondary{
+
+    background-color: #f8dcd7;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+    color: #ffffff !important;
+    background-color: #e8b65c !important;
+    border-color: black !important;
+    box-shadow: none !important;
+  }
+
+.logo{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.w-100 {
+    width: 60% !important;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+.banner{
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.container{
+    background-color: #ffffcb;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card > img {
+    height: 250px;
+}
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+.card-text{
+    text-align: left;
+}
